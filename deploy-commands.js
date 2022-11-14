@@ -1,3 +1,7 @@
+/*
+    This file is the one in charge of making the slash commands work properly
+*/
+
 const { REST, Routes } = require('discord.js');
 const { clientId, guildId, token } = require('./config.json');
 const fs = require('node:fs');
